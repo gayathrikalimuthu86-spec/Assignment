@@ -1,0 +1,27 @@
+package printing;
+
+public class Statement {
+	public static void main(String[] args) 
+	{
+   String Name="Gayathri";
+   int rollNo=22445;
+   String subject1="Tamil";
+   String subject2="English";
+   int sub1Mark=98;
+   int sub2Mark=93;
+   int totalMark=sub1Mark+sub2Mark;
+   System.out.println("Enter the student Details");
+   System.out.println("The studen name is:"+Name);
+   System.out.println("Roll No:"+rollNo);
+   System.out.println("Subject1 is:"+subject1);
+   System.out.println("Subject2 is:"+subject2);
+   System.out.println("Total Mark:"+totalMark);
+	}
+}
+
+
+
+
+   
+		   
+		   
