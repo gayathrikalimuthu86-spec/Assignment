@@ -1,0 +1,56 @@
+                                   operators
+package printing;
+import java.util.Scanner;
+
+public class logics {
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the number:");
+		int number=sc.nextInt();
+		String result1=(number>10 && number<100)?"Number between 10 and 100":"Number out of range";
+		System.out.println(result1);	
+		String result2=(number<0 || number>1000)?"Number is too small or is too big":"number is normal range";
+		System.out.println(result2);
+		
+		sc.close();
+	}
+
+}
+///////////////////////////////////////////////////////////
+package printing;
+import java.util.Scanner;
+
+public class Area {
+public static void main(String[] args)
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("***Calculate the area of rectangle***");
+	System.out.print("Enter the length:");
+	int length=sc.nextInt();
+	System.out.print("Enter the breath:");
+	int breath=sc.nextInt();
+	int area=length*breath;
+	System.out.print("The area of rectungalur:" +area);
+	sc.close();
+	
+	
+}
+}
+///////////////////////////////////////////////
+package printing;
+import java.util.Scanner;
+
+public class oddoreven {
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("To check the number is odd or even");
+		System.out.print("Enter the number:");
+		int number=sc.nextInt();
+		String result=(number%2==0)?"even number":"odd number";
+		System.out.println(number + " is " + result);
+	}
+
+}
+
