@@ -1,0 +1,122 @@
+
+     *****FIND THE GREATEST OF THREE******
+
+package printing;
+
+public class Greatest {
+	public static void main(String[] args)
+	{
+		int a=10;
+		int b=23;
+		int c=5;
+		int greatest;
+		if((a>=b)&&(a>=c))
+		{
+			greatest=a;
+		}
+		else if((b>=c)&&(b>=)a)
+		{
+			greatest=b;
+		}
+		else
+		{
+			greatest=c;
+		}
+		System.out.println("The greatest number is:"+greatest);
+		
+	}
+
+}
+////////////////////////////////////////////////////////
+           *****CALCULATOR USING SWITCH******
+package printing;
+import java.util.Scanner;
+
+public class Calculator {
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Choose an operator:+,-,*,/,%");
+		char operator=sc.next().charAt(0);
+		System.out.print("Enter first number:");
+		double number1=sc.nextDouble();
+		System.out.print("Enter second number:");
+		double number2=sc.nextDouble();
+		double result;
+		switch(operator)
+		{
+		case '+':
+			result=number1+number2;
+            System.out.println("ResultL:"+result);
+			break;
+		case '-':
+			result=number1-number2;
+            System.out.println("ResultL:"+result);
+			break;
+		case '*':
+			result=number1*number2;
+            System.out.println("ResultL:"+result);
+			break;
+		case '%':
+			result=number1%number2;
+            System.out.println("ResultL:"+result);
+			break;
+		case '/':
+		
+		if(number2!=0)
+		{
+			result=number1/number2;
+			System.out.println("Result:"+result);
+		}
+		else
+		{
+			System.out.println("Cannot divide by zero.");
+		}
+		break;
+		
+		default:
+			System.out.println("Invalid operator");
+			
+		}
+          sc.close();
+}
+}
+//////////////////////////////////////////////
+             MULTIPLICATION TABLE 7
+package printing;
+
+public class multiple {
+public static void main(String[] args)
+{
+	int i=1;
+	int number=7;
+	
+	while(i<=20)
+	{
+		System.out.println(i+"X"+number+"="+(number*i));
+		i++;
+	}
+}
+}
+//////////////////////////////////////////////
+                 PRINT ONLY ODD NUMBERS
+package printing;
+
+public class onlyoddnumbers {
+	public static void main (String[] args)
+	{
+		System.out.println("The odd numbers are.....from 1 to 25");
+		
+		for(int i=0;i<=25;i++)
+		{
+			if(i%2!=0)
+			{
+			System.out.println(i);
+		}
+	}
+
+	}
+}
+
+
+
