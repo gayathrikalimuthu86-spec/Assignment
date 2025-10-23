@@ -1,0 +1,176 @@
+*****STUDENT DETAILS*******
+  package printing;
+
+class Student2{
+	String Name;
+	int rollno,age;
+	String course;
+	void behaviour()
+	{
+	System.out.println("Behaviour:Good");	
+	}
+	void Grade() {
+		System.out.println("Grade:Excellent with O Grade");		
+	}
+	void skills()
+	{
+		System.out.println("Skill:Good leadership quality");	
+	}
+}
+
+public class Studentdetail{
+	public static void main(String[] args)
+	{
+	Student2 stud=new Student2();
+	stud.Name="Gayathri";
+	stud.rollno=2301;
+	stud.age=21;
+	stud.course="Software Testing";
+	System.out.println("Student Name:"+stud.Name);
+	System.out.println("Roll No:"+stud.rollno);
+	System.out.println("Age:"+stud.age);
+	System.out.println("Course:"+stud.course);
+	stud.Grade();
+	stud.behaviour();
+	stud.skills();
+	
+	}
+	
+}
+//////////////////////////////////////////////////////
+***INITILIZE A VARIABLES******
+  package printing;
+
+   class ini{
+	   String add(int a,int b) {
+		   int c=a+b;
+		   return "Sum of a and b is:"+c;
+	   }
+   }
+public class Initialize {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ini initialize=new ini();
+		String sum=initialize.add(15,67);
+        System.out.println(sum);
+	}
+
+}
+
+///////////////////////////////////////////////////////////
+*****MULTIPLYING 3 VALUES*****
+  package printing;
+
+   class ini{
+	   String mul(int a,int b,int c) {
+		   int multiple=a*b*c;
+		   return "multiplying a & b & c is:"+multiple;
+	   }
+   }
+public class Initialize {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ini initialize=new ini();
+		String sum=initialize.mul(15,67,5);
+        System.out.println(sum);
+	}
+
+}
+//////////////////////////////////////////////////////////////
+****BANK ACCOUNT WITHDRAWEL FUNCTION ****
+  package printing;
+import java.util.Scanner;
+class Bankaccount{
+	   String name;
+	   double balance;
+	   Bankaccount(String name,double balance)
+	   {
+		   this.name=name;
+		   this.balance=balance;
+	   }
+	   void deposit(double amount) {
+		   if(amount>0)
+		   {
+			   balance += amount;
+			   System.out.println("Successfully deposited:"+amount);
+		   }
+		   else {
+			   System.out.println("Deposit amount must be positive.");
+		   }
+	   }
+	   void withdraw(double amount) {
+		   if(amount>0 && amount<=balance)
+		   {
+			   balance-=amount;
+			   System.out.println("Withdrawn"+amount);
+		   }
+		   else {
+			   System.out.println("Invalid or insufficient balance");
+		   }
+	   }
+	   void showbalance()
+	   {
+		   System.out.println("Shoe balance:"+balance);
+	   }
+}
+
+public class Bank {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your name:");
+		String name=sc.nextLine();
+		System.out.println("Enter initial balance:");
+		double balance=sc.nextInt();
+		Bankaccount account=new Bankaccount(name,balance);
+		int choice;
+		do
+		{
+			System.out.println("\n1.Deposite \n2.Withdraw \n3.show Balace \n4.Exit");
+			System.out.println("Chose an option");
+			choice=sc.nextInt();
+			switch(choice)
+			{
+			case 1:
+				System.out.println("Enter deposit amount");
+				double dep=sc.nextDouble();
+				account.deposit(dep);
+				break;
+			case 2:
+				System.out.println("Enter withdrawel amount");
+				double wd=sc.nextDouble();
+				account.withdraw(wd);
+				break;
+			case 3:
+				account.showbalance();
+				break;
+			case 4:
+				System.out.println("Thank you for using app");
+				break;
+			default:
+				System.out.println("Invalid choice");
+			}
+		}
+			while(choice !=0);
+				sc.close();
+			
+		}
+	
+		
+	}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
