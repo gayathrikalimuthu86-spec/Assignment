@@ -14,7 +14,7 @@ public class Greatest {
 		{
 			greatest=a;
 		}
-		else if((b>=c)&&(b>=)a)
+		else if((b>=c)&&(b>=a)
 		{
 			greatest=b;
 		}
