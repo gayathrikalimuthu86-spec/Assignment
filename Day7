@@ -1,0 +1,231 @@
+***Implement inheritance with Employer (Parent) and Employee(Child) class***
+package printing;
+
+
+class Employer {
+	String CompanyName="SLA";
+	void displayCompany() {
+		
+	System.out.println("Company name is:"+CompanyName);
+}
+}
+
+public class Employee extends Employer{
+	String EmpName;
+	int Empid;
+	void displayEmpName(String EmpName) {
+		System.out.println("Employee name:"+EmpName);
+	}
+	void displayEmpid(int Empid) {
+		System.out.println("Enployee id:"+Empid);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	  
+	  
+       Employee emp=new Employee();
+       emp.displayCompany();
+       emp.displayEmpName("Sugan");
+       emp.displayEmpid(23456);
+       
+	}
+	
+
+}
+**** Demostrate method overriding****
+package printing;
+class Students
+{
+	String Name;
+	int age;
+	void StudDetails() {
+		System.out.println("He has studying in SLA");
+	}
+	void Studcourse()
+	{
+		System.out.println("Software Testing");
+	}
+	void institutedetail()
+	{
+		System.out.println("Softlogic System");
+	}
+}
+
+public class Inheritance extends Students {
+    @Override
+	void institutedetail()
+	{
+		System.out.println("SLA is creating many IT employers");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Inheritance inherit=new Inheritance();
+		Students stud=new Students();
+		stud.Name="Arav";
+		stud.age=25;
+		System.out.println("Name:"+stud.Name);
+		System.out.println("Age:"+stud.age);
+		stud.StudDetails();
+		stud.Studcourse();
+		inherit.institutedetail();
+		
+
+	}
+
+}
+*****Create Interface and implement it in subclass*****
+**Interface class**
+package printing;
+
+public interface Parent {
+         void add(int a,int b);
+         void Multiply(int a,int b,int c);
+         void divide(int a, int b);
+        static void Modulus(int a, int b)
+        {
+        	int c=a%b;
+        	System.out.println("The result of a%c is:"+c);
+	
+
+}
+}
+**Sub clss**
+package printing;
+
+public class Interface implements Parent {
+	void display()
+	{
+		System.out.println("Interface Program with Arithmatic Operators");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Interface itf=new Interface();
+		itf.Multiply(33,55,88);
+		itf.divide(2222,2);
+		itf.add(3445,88);
+		Parent.Modulus(26, 5);
+	}
+	public void add(int a, int b)
+	{
+		int c=a+b;
+		System.out.println("Adding a & b is:"+c);
+		
+	}
+	public void Multiply(int a,int b,int c)
+	{
+		int d=a*b*c;
+		System.out.println("Multiplying a & b & c is:"+d);
+	}
+	public void divide(int a,int b)
+	{
+		int c=a/b;
+		System.out.println("Dividing two numbers is:"+c);
+		
+		
+	}
+
+}
+***implement encapsulation using private field and public methods***
+package printing;
+class College
+{   
+	private String ClgName="Bharathidasan University";
+	
+	void StudCount()
+	{
+		System.out.println("Totally 1000 students studying in this college");
+	}
+	private void Gendervise()
+	{
+		System.out.println("787 Girls and 213 Boys are studying ");
+	}
+	public void getClgName()
+	{
+		System.out.println("College Name is:"+ClgName);
+	}
+	private void Courses() 
+	{
+		System.out.println("There are many Corses Available:");
+		System.out.println("Sucha as,"+"\nB.A"+"\nB.sc"+"\nB.com"+"\nBBA"+"\nMsc");
+		
+	}
+	public void getPrivate()
+	{
+		Gendervise();
+		Courses();
+	}
+}
+
+public class Encapsulation extends College{
+	void clglocation() {
+		System.out.println("The college was located in Chennai");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		College clg =new College();
+		Encapsulation encap=new Encapsulation();
+		clg.getClgName();
+		encap.clglocation();
+		clg.StudCount();
+		clg.getPrivate();
+		
+    
+	}
+
+}
+****In a single program show multiple OOPS principles like inheritance,overloading,overriding****
+package printing;
+
+class Arithmatic
+{
+	 void Multiply(int a, int b)
+	{
+		int c=a*b;
+		System.out.println("Multiplying a & b is:"+c);
+		
+	}
+	 void Multiply(int a,int b,int c)
+	{
+		int d=a*b*c;
+		System.out.println("Multiplying a & b & c is:"+d);
+	}
+      void Adding(String a,String b)
+	{   
+		String c=a+b;
+		System.out.println("Adding two Strings in parent class:"+c);
+		
+		
+	}
+
+
+}
+
+public class Advanced extends Arithmatic{
+	@Override
+	void Adding(String a,String b)
+	{   String c=a+b;
+		System.out.println("Addinng two Strings in child:"+c);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Arithmatic ac=new Arithmatic();
+		Advanced ad=new Advanced();
+		ac.Multiply(22,123);//Overloading method
+		ac.Multiply(22, 11, 12);
+		ac.Adding("Good"," Morning");//Method Override
+		ad.Adding("Good"," Evening");
+		
+	}
+	}
+
+
+
+
+
+
