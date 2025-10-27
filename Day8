@@ -1,0 +1,70 @@
+***Write a program to remove duplicate values from set of values and print in insertion order.***
+package collections;
+
+import java.util.HashSet;
+import java.util.Iterator; 
+import java.util.Set;
+
+public class Hashtags {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Set<String> list = new HashSet<String>();
+		list.add("Gayu");
+		list.add("Suba");
+		list.add("Sakthi");
+		list.add("Suba");
+		Iterator<String> i = list.iterator(); 
+		while (i.hasNext()) {
+		   System.out.println(i.next());
+		 
+	}
+
+}
+}
+****Write a program to print map <String,Integer> key in String type and Values in Integer type.****
+package collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maping {
+	public static void main(String[] args)
+	{
+		Map<String,Integer> map = new HashMap<>(); 
+		map.put("Gayathri",2301);
+		map.put("suba",2302);
+		map.put("Muthu",2303);
+		for (Map.Entry<String,Integer>entry:map.entrySet())
+		{
+			System.out.println(entry.getKey()+" "+entry.getValue());
+		}
+	}
+	
+
+}
+
+****Write a program to allow duplicate value and print in order.****
+package collections;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Listofvalues {
+	public static void main(String[] args)
+	{
+		List<Object> li=new ArrayList<Object>();
+		li.add(2345);
+		li.add("Priya");
+		li.add(2346);
+		li.add("Abi");
+		for(Object ai:li) {
+			System.out.println(ai);
+		}
+		
+		
+		
+	}
+
+}
+
+
+
