@@ -1,0 +1,134 @@
+***1.IMPORTANCE OF TESTING AND EXAMPLES***
+  1.Ensure Quality:
+     Testing helps deliveer a bug-free and smooth-working product.
+
+  2.Prevents Failure:
+     It helps identify and fix errors before ysers face problems.
+
+  3.Improves User Experience:
+     A well-tested app/software works as expected and keeps users satisfied.
+
+  4.Saves Time and Money
+       Finding bugs early is cheaper than fixing them afterr release.
+
+  5.Built Trust
+       Reliable software gains customer trust and a good reputation.
+
+    Examples:
+        *Bank application(To avoid financial errors and ensure correct calculated and transactions)
+          -->A user trnsfer Rs.1000,but Rs.2000 gets debited.
+
+       *Online shopping App(To prevent order mismatches and ensure the systemdelibers the right product)
+          --> A user orders a blue shirts but receives a red one
+      *Login System:(To ensure security and protect ysr data fromunauthoried access.)
+          -->A user enters the wrong password but still gets loogged in.
+
+***2.Difference between Quality assurance and Quality control***
+
+      QUALITY ASSURANCE:(Preventing problems)
+            -->Process-oriented.
+            -->To prevent defects by improving development processes.
+            -->Proactive(before  product is built)
+            -->Reviewing documents,conducting audis,following sstandards.
+
+      QUALITY CONTROL:(Finding problems)
+            -->Product oriented.
+            -->To identify defects in the final product.
+            -->reactive(after product is built).
+            -->Manual testing,running test cases,finding bugs.
+
+    Where QA is applicable?(Before and during development)
+         1. Before Development Begins  
+            --> During planning and designing phases  
+            --> Example: Writing test plans, defining coding standards, setting processes
+
+        2. During Development Process  
+            --> Ensuring developers follow the correct process  
+            --> Code reviews, process audits
+
+       3. Documentation & Process Check  
+           --> Ensuring that SDLC (Software Development Life Cycle) processes are followed properly
+
+  Wher QC is applicable?(After development,when the product is tested)
+        1. After Development (Testing Phase)  
+           --> Manual testing, automation testing  
+           --> Example: Finding bugs, verifying UI, checking functionality
+
+       2. During Product Verification  
+           --> Checking if the actual product meets the requirement
+
+       3. Before Release  
+           --> Final round of testing before delivering to the 
+
+    ***What is a Software Defect?***
+        A software defect (also called a bug) is a mistake or flaw in a software program that causes it to 
+    behave incorrectly or produce the wrong results.
+             Types of Defects:
+                  1. Functional Defect – When the feature doesn’t work as required  
+                  2. Performance Defect – When software is slow or crashes  
+                  3. UI Defect – Alignment or display issues  
+                  4. Security Defect – Data is not protected properly  
+        ****Write a template for Test case.****
+            
+
+              **Test Case ID: TC_001  
+              **Module Name: Login Page  
+              **Test Case Title: Verify login with valid credentials  
+              **Test Designed By: [Your Name]  
+              **Test Designed Date: [DD-MM-YYYY]  
+              **Preconditions: User must be registered  
+         Test Data:  
+           --> Username: validUser  
+           --> Password: validPass123  
+
+        Steps to Execute:
+           1. Open the login page  
+           2. Enter valid username  
+           3. Enter valid password  
+           4. Click on the login button  
+
+       Expected Result:  
+           User should be redirected to the homepage.
+       Actual Result:  
+            filled after testing
+       Status:  
+           Pass / Fail
+      Remarks:  
+****Explain STLC.****
+  
+1. Requirement Analysis  
+   - Understand the software requirements.  
+   - Identify what is testable and clarify doubts with stakeholders.
+
+2. Test Planning  
+   - Create a test plan.  
+   - Define scope, objectives, resources, schedule, and types of testing to be done.
+
+3. Test Case Design (Test Case Development)  
+   - Write test cases and test scripts.  
+   - Prepare test data.
+
+4. Test Environment Setup  
+   - Prepare hardware and software for testing.  
+   - Configure necessary tools and environments.
+
+5. Test Execution  
+   - Execute test cases on the application.  
+   - Log defects if any mismatches occur.
+
+6. Defect Reporting and Tracking  
+   - Report bugs to the development team.  
+   - Track their status (Open, Fixed, Re-tested, Closed).
+
+7. Test Cycle Closure  
+   - Ensure all planned tests are executed.  
+   - Prepare test summary report.  
+   - Analyze lessons learned and improve process.
+
+
+
+              
+
+          
+
+            
