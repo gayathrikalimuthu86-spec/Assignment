@@ -1,0 +1,77 @@
+****1. Explain the Advantages of Agile over Waterfall Model.****
+1. Flexibility and Adaptability
+--> Agile: Allows changes at any stage based on feedback or requirement changes.
+--> Waterfall: Difficult to make changes once a phase is completed.
+2. Customer Involvement
+--> Agile: Customers are involved throughout the development process.
+--> Waterfall: Customer feedback is taken only after the final product is delivered.
+3. Faster Delivery
+--> Agile: Delivers working software in small increments (sprints), allowing early use.
+--> Waterfall: Entire product is delivered at the end.
+4. Better Risk Management
+--> Agile: Regular testing and review reduce the chance of large failures.
+-->Waterfall: Risks are identified late, usually at testing or deployment.
+5. Improved Quality
+-->Agile: Continuous integration and testing improve quality.
+--> Waterfall: Testing happens only after development is complete.
+6. Team Collaboration
+--> Agile: Emphasizes teamwork, communication, and daily meetings.
+--> Waterfall: More formal and less collaborative.
+
+****2. Difference between SDLC and STLC****
+==>SDLC defines the overall process of developing software. 
+==>Focuses on requirement gathering, design, coding, testing, deployment, and maintenance.
+==>Involves developers, analysts, testers, and stakeholders.
+==>Covers the complete software project lifecycle.
+==>Starts from requirement phase and ends with deployment and maintenance.
+==>STLC defines the process of testing the software. 
+==>Focuses on test planning, test case design, test execution, defect reporting, and closure. 
+==>Involves only testing team. 
+==>Covers only the testing phase in detail. 
+==>Starts from test requirement analysis and ends with test closure. 
+
+***3. What is a Sprint in Agile? What is Scrum meeting?***
+What is a sprint in Agile?
+     In Agile, a Sprint is a short, fixed period of time (usually 1 to 4 weeks) during which a team works 
+to complete a specific set of tasks or features from the project backlog.
+Key points:
+--> Each Sprint has a clear goal and deliverable.
+--> It starts with a Sprint Planning meeting and ends with a Sprint Review and Retrospective.
+--> The outcome of a Sprint is a potentially shippable product increment.
+--> Helps teams deliver working software frequently.
+What is a scrum meeting?
+   A Scrum Meeting (also called a Daily Stand-up) is a short, time-boxed meeting (usually 15 minutes) 
+held every day in Agile Scrum teams.
+   To help the team stay on track, identify blockers, and plan the day’s work.
+Benefits:
+- Keeps everyone aligned  
+- Promotes communication  
+- Quickly identifies issues  
+
+****4. Explain about Kanban Board.****
+     A Kanban Board is a visual tool used in Agile project management to track and manage work as 
+it moves through a process.
+Benefits:
+--> Clear view of task status  
+--> Helps avoid overloading team members  
+--> Easy tracking and collaboration
+Key Features:
+    --> Divides work into columns like:
+    --> To Do
+    --> In Progress
+    --> Testing
+    --> Done
+    --> Each task is represented by a card that moves across the board from left to right.
+****5. What is V-model****
+     V-Model (Verification and Validation Model) is a software development model 
+where each development stage is directly associated with a testing phase. It is also known as the Validation and Verification model.
+    ==>Left Side – Development Phases (Verification)
+    ==>Right Side – Testing Phases (Validation)
+
+
+
+
+
+
+
+
