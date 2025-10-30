@@ -1,0 +1,66 @@
+****1. Difference between Blackbox and Whitebox Testing.****
+Block box:
+  ==> Functionality of the application  
+  ==> No access to source code
+  ==> Requirements and specifications  
+  ==> Functional testing, system testing, acceptance 
+  ==> Testers or QA  
+White box:
+  ==> Internal code and logic of the application  
+  ==> Full access to source code   
+  ==> Code, logic, and internal structure   
+  ==> Unit testing, integration testing  
+  ==>Developers or technically skilled testers  
+
+****2. What is Non-Functional Testing? Give some examples.****
+     Non-Functional Testing is a type of software testing that focuses on how the system performs rather than 
+what it does. It checks the quality attributes of an application like speed, scalability, usability, and reliability.
+ Example:
+    1. Performance Testing(Checks how fast the system responds under load.)
+    2. Load Testing(Measures the system’s behavior under expected user load.)
+    3. Security Testing(Identifies vulnerabilities and protects data from threats.)
+
+*****3. Explain the significance of Integration Testing.*****
+     Integration Testing is an important level of software testing that checks how different modules or components of an application
+work together.
+Significance of Integration Testing:
+1. Detects Interface Issues Early:  
+   ==>It helps identify problems in how modules interact—like data mismatch, incorrect API usage, or communication failures.
+2. Improves Data Flow Accuracy:  
+   ==>Ensures that data is correctly passed between modules, reducing the chances of bugs during actual user operations.
+3. Ensures Smooth System Functionality:  
+   ==>By testing the combined modules, we confirm that they function well together, just like they would in the real environment.
+
+
+****4. If a user tests a site in Chrome browser and he checks the same site in iPhone 6 and finds defects in iPhone 6. Which type of testing is this? Explain.****
+   ==>This type of testing is called Compatibility Testing.
+   ==>Compatibility Testing checks whether the software or website works as expected across different devices, browsers, operating systems, screen sizes, etc.
+   ==>The user tested the site on Chrome browser (probably on desktop or Android).
+   ==>Then tested it on iPhone 6 and found some defects.
+   ==>This shows that the website is not fully compatible with the iPhone 6 or Safari browser, which is a compatibility issue.
+
+
+****5. Define Accessibility Testing and its importance.****
+Accessibility Testing is a type of software testing used to ensure that an application or website is usable by people with disabilities such as:
+   --> Visual impairments (blindness, color blindness)
+   --> Hearing impairments
+   --> Cognitive disabilities
+   --> Motor or physical disabilities
+Importance:
+    ==>Inclusivity
+    ==>Legal Compliance-WCAG (Web Content Accessibility Guidelines) 
+    ==>Improved Usability
+    ==>Better reach.
+
+
+
+
+
+
+
+
+
+
+
+
+
