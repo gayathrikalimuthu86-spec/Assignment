@@ -1,0 +1,55 @@
+****1. Prepare a sample RTM document for E-commerce / Banking application.****
+RTM documwnr for e-commerce
+| Req. ID |        Requirement Description             | Test Case ID(s)  |                 Test Scenario                 | Status   |
+| RQ-001  |       User should be able to register      | TC-001, TC-002   | Validate registration with valid/invalid data | Pass     |
+| RQ-002  |       User login with username & password  | TC-003, TC-004   | Validate login with valid/invalid credentials | Pass     |
+| RQ-003  |       User can search for products         | TC-005           | Search by name/category                       | Pass     |
+| RQ-004  |       Add products to shopping cart        | TC-006           | Add and remove items in cart                  | In Progress |
+
+Rtm document for Banking application:
+| Req. IDm    |    Requirement Description             | Test Case ID(s)  |                 Test Scenario                    | Status   |
+| RQ-001      | User must log in with valid credentials| TC-001           | Verify login with valid/invalid inputs           | Passed     |
+| RQ-002      | View account balance                   | TC-002           | Verify balance is shown after login              | Passed     |
+| RQ-003      | View recent transactions               | TC-003           | Validate transaction list for last 30 days       | In Progress|
+| RQ-004      | Fund transfer to same bank account     | TC-004           | Transfer funds to same bank, validate success    | Passed     |
+| RQ-005      | Fund transfer to other bank account    | TC-005           | Transfer funds via NEFT/IMPS                     | Passed     |
+
+****2. What are all the Entry criteria needed to start Testing?****
+1. Approved Requirements Document  
+2. Test Plan is Ready  
+3. Test Cases are Prepared  
+4. Test Environment is Set Up  
+5. Build is Deployed  
+6. Test Data is Available    
+7. Access to Tools  
+****3. What are all the deliverables you provide to stake holder after test completion?****
+1. Test Summary Report  
+2. Defect Report  
+3. Test Case Document  
+4. Traceability Matrix (RTM)  
+5. Test Closure Report  
+6. Lessons Learned / Improvement Report  
+7. Automation Scripts (if applicable)  
+8. Screenshots/Logs (if needed)  
+*****4. What are all the factors need to confirm that your System Testing is complete?****
+1. Test Case Execution Completed  
+2. Test Coverage Achieved  
+3. Major Defects Fixed & Re-tested  
+4. No High Priority Open Defects  
+5. Pass Percentage Met  
+6. Regression Testing Completed  
+7. Test Summary Report Prepared  
+8. Sign-off from QA Team & Stakeholders  
+9. Entry Criteria for Next Phase (UAT/Production) Satisfied  
+ *****5. Test Execution Report is the deliverable for Entry criteria or Exit criteria? Give reason for the same.*****
+Test Execution Report is a deliverable for Exit Criteria — not for Entry Criteria.           
+  - The Test Execution Report summarizes:
+  - Total test cases executed
+  - Pass/fail status
+  - Defects found and fixed
+  - Coverage achieved
+
+
+
+
+  
