@@ -1,0 +1,22 @@
+****1.What is Domain Requirements? Explain with examples****
+     Domain Requirements in software engineering refer to requirements that are specific to the domain or 
+industry for which the software is being developed.
+EXAMPLE:
+  1.Banking Domain:
+      -->The system must support multi-currency transactions and comply with RBI regulations.
+  2. Healthcare Domain:  
+      -->Patient records must be encrypted and comply with HIPAA regulations.
+  3. E-commerce Domain:  
+      -->The system must calculate applicable GST based on the product category and customer location.
+
+****2. Benefits of RTM****
+     RTM (Requirement Traceability Matrix) is a tool used in software testing and development to track requirements throughout the project lifecycle. 
+Benefits of RTM:  
+1. Ensures Coverage 
+2. Improves Quality 
+3. Facilitates Impact Analysis
+4. Supports Compliance & Audits
+5. Enhances Communication
+6. Helps in Project Tracking
+
+     
