@@ -1,0 +1,21 @@
+*****1.Explain about Coding Standards*****
+     Coding standards are a set of guidelines and best practices that developers follow while writing code.
+They ensure that code is consistent, readable, maintainable, and error-free across a team or organization.  
+Key Points:
+1. Consistency
+2. Readability
+3. Maintainability  
+4. Error Reduction
+5. Team Collaboration 
+6. Reusability
+*****2.Benefits of Static Testin:*****
+1. Early Defect Detection: 
+    ==>Finds errors in requirements, design, or code before execution.  
+2. Cost-Effective: 
+    ==>Cheaper to fix defects early than during dynamic testing.  
+3. Improves Quality:
+    ==>Ensures coding standards and documentation are followed.  
+4. Prevents Critical Errors: 
+    ==>Catches syntax, logic, and security issues early.  
+5. Saves Time: 
+    ==>Reduces defects during actual testing, making testing faster.
