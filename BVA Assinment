@@ -1,0 +1,35 @@
+1. Equivalence Paritioning:
+      Divide the input domain: Identify the different sets of inputs based on the software's
+requirements. These sets are divided into partitions of equivalent data, which are often
+categorized as either valid or invalid.
+
+•Create test cases: 
+      Choose one representative value from each of these partitions to create a
+single test case.
+
+Example 1: Login Page – Password Length
+Requirement: Password must be 8–16 characters long.
+Invalid (less than 8):"abc123"	Reject
+Valid (8–16):"abc12345"	Accept
+Invalid (more than 16):"abcdefghijklmnopq"	Reject.
+
+2.  Boundary Value Analysis:
+     Boundary value analysis is a software testing technique that focuses on testing the limits of input
+ranges, such as the minimum and maximum values, because errors are often found at these
+boundaries.
+
+Test Case ID: TC_EP_001
+Test Case Title: Validate the “Age” input field using Equivalence Partitioning
+Test Description: Verify that the system accepts valid age values (18–60) and rejects invalid ones.
+Precondition:	User is on the registration page with the “Age” field visible
+Input Data (Equivalence Partitions): 10 (Invalid – below range)
+                                     25 (Valid – within range)
+                                     70 (Invalid – above range)
+Test Steps:	1. Enter the given age value in the “Age” field.
+            2. Click on the “Submit” button.
+Expected Result:System should show an error for age below 18.
+
+
+
+
+
